@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cressman - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC91C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_AFXDLL" /FR"Release/" /Fp"Release/cressman.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\software\xie\cressman\cressman.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC91C.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPC91D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/cressman.pdb" /machine:I386 /out:"Release/cressman.exe" 
+.\Release\cressman.obj
+.\Release\StdAfx.obj
+.\Release\cressman.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPC91D.tmp"
+<h3>Output Window</h3>
+Compiling...
+cressman.cpp
+E:\software\xie\cressman\cressman.cpp(113) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+E:\software\xie\cressman\cressman.cpp(115) : warning C4305: 'initializing' : truncation from 'const double' to 'float'
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\vector(48) : warning C4786: '??0?$vector@V?$vector@Ucolorz@@V?$allocator@Ucolorz@@@std@@@std@@V?$allocator@V?$vector@Ucolorz@@V?$allocator@Ucolorz@@@std@@@std@@@2@@std@@QAE@IABV?$vector@Ucolorz@@V?$allocator@Ucolorz@@@std@@@1@ABV?$allocator@V?$vector@Ucolorz@@V?$allocator@Ucolorz@@@std@@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\software\xie\cressman\cressman.cpp(370) : see reference to class template instantiation 'std::vector<class std::vector<struct colorz,class std::allocator<struct colorz> >,class std::allocator<class std::vector<struct colorz,class std::allocator<struct colorz> > > >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\vector(61) : warning C4786: '??0?$vector@V?$vector@Ucolorz@@V?$allocator@Ucolorz@@@std@@@std@@V?$allocator@V?$vector@Ucolorz@@V?$allocator@Ucolorz@@@std@@@std@@@2@@std@@QAE@PBV?$vector@Ucolorz@@V?$allocator@Ucolorz@@@std@@@1@0ABV?$allocator@V?$vector@Ucolorz@@V?$allocator@Ucolorz@@@std@@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\software\xie\cressman\cressman.cpp(370) : see reference to class template instantiation 'std::vector<class std::vector<struct colorz,class std::allocator<struct colorz> >,class std::allocator<class std::vector<struct colorz,class std::allocator<struct colorz> > > >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\vector(48) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@IABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\software\xie\cressman\cressman.cpp(657) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\vector(61) : warning C4786: '??0?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@0ABV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@@Z' : identifier was truncated to '255' characters in the browser information
+        E:\software\xie\cressman\cressman.cpp(657) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\vector(103) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\software\xie\cressman\cressman.cpp(657) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\vector(105) : warning C4786: '?rbegin@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\software\xie\cressman\cressman.cpp(657) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\vector(107) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAE?AV?$reverse_iterator@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@AAV12@PAV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\software\xie\cressman\cressman.cpp(657) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\VC98\INCLUDE\vector(108) : warning C4786: '?rend@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QBE?AV?$reverse_iterator@PBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@ABV12@PBV12@H@2@XZ' : identifier was truncated to '255' characters in the browser information
+        E:\software\xie\cressman\cressman.cpp(657) : see reference to class template instantiation 'std::vector<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class std::allocator<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > > >' being compiled
+E:\software\xie\cressman\cressman.cpp(677) : warning C4101: 'm_lnglat' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Release/cressman.bsc"  .\Release\StdAfx.sbr .\Release\cressman.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+cressman.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
